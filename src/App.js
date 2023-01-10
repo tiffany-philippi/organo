@@ -1,10 +1,11 @@
-import './App.css';
-import Banner from './components/Banner/Banner';
+import Banner from "./components/Banner";
+import Form from "./components/Form";
 
 function App() {
   return (
     <div className="App">
-      <Banner/>
+      <Banner />
+      <Form />
     </div>
   );
 }

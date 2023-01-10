@@ -1,9 +1,9 @@
 import './Banner.css';
 
-function Banner() {
+const Banner = () => {
     return (
         <header className='banner'>
-            <img className='banner-img' src="/img/banner.png" alt="Main Banner of this page"/>
+            <img className='banner__img' src="/img/banner.png" alt="Main Banner of this page"/>
         </header>
     );
 }
