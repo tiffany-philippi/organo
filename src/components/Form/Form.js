@@ -14,9 +14,9 @@ export const Form = (props) => {
     e.preventDefault();
     console.log("a", name, position, image, team);
     props.onCreate({ name, position, image, team });
-    // setName("");
-    // setPosition("");
-    // setImage("");
+    setName("");
+    setPosition("");
+    setImage("");
     setTeam(props.list[0].name);
   };
 
