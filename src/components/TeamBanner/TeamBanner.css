@@ -1,0 +1,25 @@
+.teamBanner {
+    text-align: center;
+    padding: 32px;
+}
+.teamBanner h3 {
+    font-size: 32px;
+    border-bottom: 4px solid;
+    display: inline-block;
+    padding-bottom: 8px;
+}
+.teamBanner__collaborators {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 32px;
+}
+
+/* Background colors for each team */
+.banner__dataScience { background-color: #F0F8E2; }
+.banner__devops { background-color: #FDE7E8; }
+.banner__frontend { background-color: #E8F8FF; }
+.banner__iandm { background-color: #FFEEDF; }
+.banner__mobile { background-color: #FFF5D9; }
+.banner__programming { background-color: #D9F7E9; }
+.banner__uxdesign { background-color: #FAE9F5; }

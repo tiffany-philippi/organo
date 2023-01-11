@@ -1,7 +1,3 @@
-import "./Button.css";
-
-const Button = (props) => {
-  return <button className="button">{props.children}</button>;
-};
+import { Button } from "./Button";
 
 export default Button;

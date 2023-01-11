@@ -1,0 +1,35 @@
+.collaborator {
+    border-radius: 10px;
+    min-height: 212px;
+    width: 280px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
+    margin-bottom: 20px;
+}
+
+.collaborator__card {
+    border-radius: 10px 10px 0 0;
+}
+.collaborator__image {
+    position: relative;
+    top: 47.5px;
+    border-radius: 50%;
+    width: 95px;
+    object-fit: cover;
+    height: 95px;
+}
+.collaborator__content {
+    border-radius: 0 0 10px 10px;
+    padding-top: 47.5px;
+    padding-bottom: 40px;
+    background-color: #FFF;
+}
+.collaborator__name {
+    font-weight: 600;
+    font-size: 18px;
+    color: #6278F7;
+}
+.collaborator__position {
+    font-weight: 400;
+    font-size: 16px;
+    color: #212121;
+}
