@@ -45,7 +45,6 @@ function App() {
   const [collaborators, setCollaborators] = useState([]);
   const create = (collaborator) => {
     setCollaborators([...collaborators, collaborator]);
-    console.log(collaborators);
   };
 
   return (

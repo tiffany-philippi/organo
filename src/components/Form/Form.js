@@ -9,7 +9,6 @@ export const Form = (props) => {
   const [position, setPosition] = useState("");
   const [image, setImage] = useState("");
   const [team, setTeam] = useState(props.list[0].name);
-  console.log(team);
 
   const submit = (e) => {
     e.preventDefault();
