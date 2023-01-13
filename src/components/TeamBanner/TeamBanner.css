@@ -1,6 +1,9 @@
 .teamBanner {
+    position: relative;
     text-align: center;
     padding: 32px;
+    background-image: url('../../../public/img/fundo.png');
+    background-blend-mode: multiply;
 }
 .teamBanner h3 {
     font-size: 32px;
@@ -13,6 +16,11 @@
     justify-content: space-around;
     flex-wrap: wrap;
     margin-top: 32px;
+}
+.teamBanner__inputColor {
+    position: absolute;
+    top: 20px;
+    right: 50px;
 }
 
 /* Background colors for each team */

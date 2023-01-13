@@ -1,4 +1,5 @@
 .collaborator {
+    position: relative;
     border-radius: 10px;
     min-height: 212px;
     width: 280px;
@@ -32,4 +33,10 @@
     font-weight: 400;
     font-size: 16px;
     color: #212121;
+}
+.collaborator__delete {
+    cursor: pointer;
+    position: absolute;
+    right: -10px;
+    top: -10px;
 }

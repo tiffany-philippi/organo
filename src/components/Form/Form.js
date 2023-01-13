@@ -12,7 +12,6 @@ export const Form = (props) => {
 
   const submit = (e) => {
     e.preventDefault();
-    console.log("a", name, position, image, team);
     props.onCreate({ name, position, image, team });
     setName("");
     setPosition("");
