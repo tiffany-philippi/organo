@@ -1,3 +1,4 @@
+import hexToRgba from "hex-to-rgba";
 import Collaborator from "../Collaborator";
 import "./TeamBanner.css";
 
@@ -7,7 +8,10 @@ export const TeamBanner = (props) => {
 
   return (
     props.collaboratorsList.length > 0 && (
-      <section className={`teamBanner banner__${team.value}`}>
+      <section
+        className={`teamBanner banner__${team.value}`}
+        style={{ backgroundColor: hexToRgba(team.primary, "0.2") }}
+      >
         <input
           type="color"
           className="teamBanner__inputColor"
